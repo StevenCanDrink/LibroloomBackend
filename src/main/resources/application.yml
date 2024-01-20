@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://${RAILWAY_TCP_PROXY_DOMAIN}:${RAILWAY_TCP_PROXY_PORT}/{PGDATABASE}
-    username: ${PGUSER}
-    password: ${POSTGRES_PASSWORD}
+    url: jdbc:postgresql://monorail.proxy.rlwy.net:48809/railway
+    username: postgres
+    password: "*a3b2aA2bcaA3g6*AD*b5Gf6Gf3-5cF1"
     driver-class-name: org.postgresql.Driver
 
   jpa:
